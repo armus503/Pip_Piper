@@ -1,0 +1,336 @@
+/*My styles*/
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: regular;
+    color: #000000;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    margin: 0, auto;
+    width: 100%;
+}
+
+.main {
+    background-size: cover;
+    background-position: center center;
+    margin: 0, auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.main-content {
+    width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0, auto;
+    box-sizing: border-box;
+}
+
+.anchor {
+    position: relative;
+}
+
+.anchor__link {
+    position: absolute;
+    display: block;
+    top: -84px;
+}
+
+
+/*header styles start*/
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #14b3ab;
+    position: fixed;
+    height: 84px;
+    width: 100%;
+    font-style: medium;
+}
+
+.header__logo {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    margin: 0, auto;
+}
+
+.header-nav {
+    display: inline-block;
+    width: 1109px;
+}
+
+.header__list {
+    display: inline-block;
+    float: right;
+    padding-top: 29px;
+    padding-bottom: 26px;
+    margin: 0;
+}
+
+.header__item {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    font-weight: medium;
+    padding-left: 8px;
+}
+
+.header__active {
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+}
+
+
+/*header styles end*/
+
+
+/*section jumbotron styles start*/
+
+.jumbotron {
+    background-image: url("image(1).png");
+    background-size: auto 100%;
+    background-position: center center;
+    margin: 0, auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    min-width: 100%;
+}
+
+.text-jumbotron {
+    color: #ffffff;
+    font-weight: medium;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 244px;
+    padding-bottom: 160px;
+    max-width: 1219px;
+}
+
+
+/*section jumbotron styles end*/
+
+
+/*div the problem styles start*/
+
+.the_Problem {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 1px;
+    margin: auto;
+}
+
+.title-the_Problem {
+    font-weight: medium;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+    padding: 48px 0px 16px 0px;
+    margin: auto;
+}
+
+.text-the_Problem {
+    font-weight: regular;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 91px;
+}
+
+
+/*div the problem styles end*/
+
+
+/*div hero styles start*/
+
+.hero {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center center;
+    margin: 0, auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.text-hero {
+    font-weight: medium;
+    font-style: italic;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    width: 893px;
+    height: 228px;
+    padding-top: 128px;
+    padding-bottom: 127px;
+    margin: auto;
+}
+
+
+/*div hero styles end*/
+
+
+/*div ppc styles start*/
+
+.pied_Piper_Coin {
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+
+.title-pied_Piper_Coin {
+    font-weight: medium;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+    padding: 48px 0px 16px 0px;
+    margin: auto;
+}
+
+.paragraph_1-pied_Piper_Coin {
+    font-weight: regular;
+    font-size: 32px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.paragraph_2-pied_Piper_Coin {
+    font-weight: regular;
+    font-size: 32px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 92px;
+}
+
+.pied_Piper_Coin__logo__img {
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 33px;
+    width: 115px;
+    height: 115px;
+}
+
+
+/*div ppc styles end*/
+
+
+/*div theTeam styles start*/
+
+.the_Team {
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+    padding-bottom: 1px;
+    margin: auto;
+}
+
+.the_Team__header {
+    font-weight: medium;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+    padding: 48px 0px 32px 0px;
+    margin-bottom: 32px;
+    margin: auto;
+}
+
+.card-the_Team {
+    display: inline-block;
+    padding-bottom: 28px;
+    margin: 0, auto;
+    box-sizing: border-box;
+}
+
+.card-the_Team__Richard_Hendrics,
+.card-the_Team__Dinesh_Chugtai {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 25px;
+}
+
+.card-the_Team__Bertram_Gilfoyle {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.card-the_Team__Jared_Dunn,
+.card-the_Team__Monica_Hall {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.card-the_Team__Nelson_Bighetti {
+    display: inline-block;
+}
+
+.card-the_Team__icon {
+    width: 168px;
+    height: 168px;
+    margin: auto;
+    padding: 24px 91px 14px 91px;
+}
+
+.card-the_Team__name {
+    font-weight: bold;
+    font-size: 24px;
+    color: #007765;
+    text-align: center;
+}
+
+.card-the_Team__post {
+    font-style: italic;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin: 0px;
+}
+
+.block-card-the_Team {
+    margin-bottom: 93px;
+}
+
+
+/*div the_team styles end*/
+
+
+/*footer styles start*/
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    margin: 0, auto;
+    padding-top: 50px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.text-footer {
+    font-weight: regular;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    max-width: 540px;
+    margin: auto;
+    margin-bottom: 61px;
+}
+
+
+/*footer styles end*/
+
+* {
+    outline: 2px solid rgb(197, 34, 116);
+}

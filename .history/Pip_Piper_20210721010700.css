@@ -452,7 +452,7 @@ html {
     padding-right: 55px;
     background-size: cover;
     background-position: center center;
-    margin: auto;
+    margin: 0, auto;
     box-sizing: border-box;
 }
 
@@ -758,7 +758,6 @@ html {
 
 /*footer styles end*/
 
-
-/*{
+* {
     outline: 2px solid rgb(197, 34, 116);
-}*/
+}

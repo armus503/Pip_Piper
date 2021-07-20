@@ -421,29 +421,13 @@ template {
 
 /*My styles*/
 
-html {
-    width: 100vw;
-}
-
 .body {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     line-height: 1.2;
     font-weight: regular;
     color: #000000;
-    background-size: cover;
-    background-position: center center;
-    box-sizing: border-box;
     margin: 0, auto;
-    width: 100%;
-}
-
-.main {
-    background-size: cover;
-    background-position: center center;
-    margin: 0, auto;
-    box-sizing: border-box;
-    width: 100%;
 }
 
 .main-content {
@@ -452,7 +436,7 @@ html {
     padding-right: 55px;
     background-size: cover;
     background-position: center center;
-    margin: auto;
+    margin: 0, auto;
     box-sizing: border-box;
 }
 
@@ -521,12 +505,11 @@ html {
 
 .jumbotron {
     background-image: url("image(1).png");
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center center;
-    margin: 0, auto;
+    margin: auto;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    min-width: 100%;
 }
 
 .text-jumbotron {
@@ -735,14 +718,13 @@ html {
 
 .footer {
     font-family: 'Roboto', sans-serif;
-    background-color: #333333;
     background-size: cover;
     background-position: center center;
+    background-color: #333333;
     margin: 0, auto;
     padding-top: 50px;
     padding-bottom: 1px;
     box-sizing: border-box;
-    width: 100%;
 }
 
 .text-footer {
@@ -759,6 +741,7 @@ html {
 /*footer styles end*/
 
 
-/*{
+/*
+* {
     outline: 2px solid rgb(197, 34, 116);
 }*/

@@ -447,7 +447,7 @@ html {
 }
 
 .main-content {
-    width: 1219px;
+    max-width: 1219px;
     padding-left: 55px;
     padding-right: 55px;
     background-size: cover;
@@ -758,7 +758,6 @@ html {
 
 /*footer styles end*/
 
-
-/*{
+* {
     outline: 2px solid rgb(197, 34, 116);
-}*/
+}

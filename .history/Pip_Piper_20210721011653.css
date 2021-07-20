@@ -453,7 +453,6 @@ html {
     background-size: cover;
     background-position: center center;
     margin: auto;
-    box-sizing: border-box;
 }
 
 .anchor {
@@ -758,7 +757,6 @@ html {
 
 /*footer styles end*/
 
-
-/*{
+* {
     outline: 2px solid rgb(197, 34, 116);
-}*/
+}
